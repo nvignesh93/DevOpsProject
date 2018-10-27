@@ -65,7 +65,7 @@ public class NumberToWords {
 	//System.out.println("Step 2");
     // 0 to 999 999 999 999
 	if(number == 0) {
-		return "Bye bye";
+		return "Exiting program";
 	}
 	if (number > 0 && number < 1000000000) {
 	    if (number == 0) { return "zero"; }
@@ -137,7 +137,7 @@ public class NumberToWords {
 	    // remove extra spaces!
 	    return result.replaceAll("^\\s+", "").replaceAll("\\b\\s{2,}\\b", " ");
 	} else {
-		return "Out of range";
+		return "Invalid number";
 	}
   }
 
