@@ -149,9 +149,9 @@ public class NumberWords {
   public static void main(String[] args) {
 	  NumberWords numberWord = new NumberWords();
 
-	  System.out.println("4567 is converted to " + numberWord.convert(4567));
-	  System.out.println("212345678 is converted to " + numberWord.convert(212345678));
-	  System.out.println("12 is converted to " + numberWord.convert(12));
+	  System.out.println("1111 is converted to " + numberWord.convert(4567));
+	  System.out.println("111111111 is converted to " + numberWord.convert(212345678));
+	  System.out.println("11 is converted to " + numberWord.convert(12));
 	  System.out.println("1 is converted to " + numberWord.convert(1));
 	  System.out.println("0 is converted to " + numberWord.convert(0));
 	  System.out.println("-67 is converted to " + numberWord.convert(-67));
