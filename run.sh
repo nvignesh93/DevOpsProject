@@ -1,5 +1,5 @@
 pwd
 ls
-cd Numbers/src/devops/numbers
-javac NumberWordsApplication.java
-java NumberWordsApplication
+cd Numbers/src
+javac devops/numbers/NumberWords.java
+java devops.numbers.NumberWords
