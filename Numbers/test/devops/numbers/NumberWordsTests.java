@@ -34,11 +34,11 @@ public class NumberWordsTests {
 	
 	@Test
 	public void exitApplication() {
-		Assert.assertEquals("Success", "Exiting Program", numberToWords.convert(0)) ;
+		Assert.assertEquals("Success", "Exiting program", numberToWords.convert(0)) ;
 	}
 	
 	@Test
 	public void numberNegative() {
-		Assert.assertEquals("Success", "invalid", numberToWords.convert(-67)) ;
+		Assert.assertEquals("Success", "invalid number", numberToWords.convert(-67)) ;
 	}
 }
