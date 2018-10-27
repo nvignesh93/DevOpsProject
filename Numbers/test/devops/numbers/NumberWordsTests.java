@@ -19,7 +19,7 @@ public class NumberWordsTests {
 
 	@Test
 	public void numberMillion() {
-		Assert.assertEquals("Success", "two hundred twelve million three hundred forty five thousand six hundred seventy eight", numberToWords.convert(212345678)) ;
+		Assert.assertEquals("Success", "converted to one hundred eleven million one hundred eleven thousand one hundred eleven", numberToWords.convert(111111111)) ;
 	}
 
 	@Test
