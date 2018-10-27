@@ -14,7 +14,7 @@ public class NumberWordsTests {
 
 	@Test
 	public void numberFourDigit() {
-		Assert.assertEquals("Success", "four thousand five hundred sixty seven", numberToWords.convert(4567)) ;
+		Assert.assertEquals("Success", "one thousand one hundred eleven", numberToWords.convert(1111)) ;
 	}
 
 	@Test
@@ -24,7 +24,7 @@ public class NumberWordsTests {
 
 	@Test
 	public void numberTwoDigit() {
-		Assert.assertEquals("Success", "twelve", numberToWords.convert(12)) ;
+		Assert.assertEquals("Success", "eleven", numberToWords.convert(11)) ;
 	}
 	
 	@Test
@@ -34,11 +34,11 @@ public class NumberWordsTests {
 	
 	@Test
 	public void exitApplication() {
-		Assert.assertEquals("Success", "Bye bye", numberToWords.convert(0)) ;
+		Assert.assertEquals("Success", "Exiting Program", numberToWords.convert(0)) ;
 	}
 	
 	@Test
 	public void numberNegative() {
-		Assert.assertEquals("Success", "Out of range", numberToWords.convert(-67)) ;
+		Assert.assertEquals("Success", "invalid", numberToWords.convert(-67)) ;
 	}
 }
