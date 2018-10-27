@@ -25,13 +25,13 @@ public final class NumberWordsApplication {
 				String value = reader.readLine() ;
 				int number = Integer.parseInt( value ) ;
 				if(number == 0) {
-					System.out.println("Bye  bye");
+					System.out.println("Exiting program");
 					System.exit(0);
 				}
 				if (number > 0 && number < 1000) {
 					System.out.println(number + " is converted to " + numberToWords.convert(number));
 				} else {
-					System.out.println(number + " is out of range");
+					System.out.println(number + " Invalid number");
 				}
 			} catch ( NumberFormatException | IOException e ) {
 				System.out.println( "Invalid number" ) ;
